@@ -7,8 +7,7 @@ module.exports = () => {
     mongoose.Promise = global.Promise
 
     mongoose.connect(
-      DB_URL,
-      {
+      DB_URL, {
         keepAlive: true,
         useNewUrlParser: true,
         useUnifiedTopology: true
